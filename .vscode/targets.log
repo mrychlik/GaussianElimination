@@ -6,13 +6,14 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Oct 10 10:56:44 2024
+# Make data base, printed on Thu Dec  5 14:30:35 2024
 
 # Variables
 
 # environment
 JAVA_HOME = /usr/lib/jvm/java-8-openjdk-amd64
 # environment
+ 
 GDK_BACKEND = x11
 # environment
 MEMORY_PRESSURE_WRITE = c29tZSAyMDAwMDAgMjAwMDAwMAA=
@@ -24,8 +25,6 @@ GNOME_SHELL_SESSION_MODE = ubuntu
 VIRTUAL_ENV = /home/marek/venv-ardupilot
 # environment
 GJS_DEBUG_OUTPUT = stderr
-# environment
-ZEITGEIST_DATA_PATH = /home/marek/.local/share/zeitgeist
 # environment
 SNAP_LAUNCHER_ARCH_TRIPLET = x86_64-linux-gnu
 # environment
@@ -43,12 +42,11 @@ QT_ACCESSIBILITY = 1
 # environment
 SGX_AESM_ADDR = 1
 # automatic
- 
 @D = $(patsubst %/,%,$(dir $@))
 # environment
 SNAP_INSTANCE_NAME = code
 # environment
-GDK_PIXBUF_MODULEDIR = /snap/code/171/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+GDK_PIXBUF_MODULEDIR = /snap/code/176/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
@@ -62,7 +60,7 @@ LIB_SOURCES = gauss_solve.c
 # environment
 PS1 = (venv-ardupilot) ${debian_chroot:+($debian_chroot)}\u@\h:\w\$ 
 # environment
-XDG_DATA_DIRS = /home/marek/snap/code/171/.local/share:/home/marek/snap/code/171:/snap/code/171/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+XDG_DATA_DIRS = /home/marek/snap/code/176/.local/share:/home/marek/snap/code/176:/snap/code/176/usr/share:/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
 # environment
 SNAP_EUID = 1001
 # automatic
@@ -70,11 +68,11 @@ SNAP_EUID = 1001
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/marek/.config/Code/CachedData/e10f2369d0d9614a452462f2e01cdc4aa9486296
+VSCODE_CODE_CACHE_PATH = /home/marek/.config/Code/CachedData/f1a4fb101478ce6ec82fe9627c43efbf9e98c813
 # environment
 LANG = C
 # environment
-XAUTHORITY = /run/user/1001/.mutter-Xwaylandauth.4BH7U2
+XAUTHORITY = /run/user/1001/.mutter-Xwaylandauth.8UVKY2
 # default
 .LOADED := 
 # default
@@ -114,7 +112,7 @@ MAKEFILE_LIST := Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 163766
+VSCODE_PID = 16120
 # environment
 XDG_SESSION_TYPE = wayland
 # automatic
@@ -122,23 +120,26 @@ XDG_SESSION_TYPE = wayland
 # environment
 BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
-SESSION_MANAGER = local/precision:@/tmp/.ICE-unix/106418,unix/precision:/tmp/.ICE-unix/106418
+XDG_DATA_HOME = /home/marek/snap/code/176/.local/share
+# environment
+SESSION_MANAGER = local/precision:@/tmp/.ICE-unix/5363,unix/precision:/tmp/.ICE-unix/5363
 # automatic
 *F = $(notdir $*)
 # environment
-CHROME_DESKTOP = code-url-handler.desktop
+CHROME_DESKTOP = code.desktop
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1001/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/171/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
+ 
+VSCODE_NLS_CONFIG = {"userLocale":"en-us","osLocale":"en-us","resolvedLanguage":"en","defaultMessagesFile":"/snap/code/176/usr/share/code/resources/app/out/nls.messages.json","locale":"en-us","availableLanguages":{}}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # makefile (from 'Makefile', line 11)
 OBJS = gauss_solve.o main.o helpers.o
 # environment
-GTK_PATH = /snap/code/171/usr/lib/x86_64-linux-gnu/gtk-3.0
+GTK_PATH = /snap/code/176/usr/lib/x86_64-linux-gnu/gtk-3.0
 # environment
 GNOME_DESKTOP_SESSION_ID = this-is-deprecated
 # makefile
@@ -160,7 +161,7 @@ MAKE = $(MAKE_COMMAND)
 # environment
 SNAP_COOKIE = BpqCQRG1xGLSMhzpWaGZpttkYUahj1t7b70BgDIsOpYS-_H55Rc5
 # environment
-PATH = /usr/lib/ccache:/home/marek/venv-ardupilot/bin:/home/marek/.local/bin:/home/marek/bin:/usr/lib/ccache:/home/marek/venv-ardupilot/bin:/home/marek/.local/bin:/home/marek/bin:/usr/lib/ccache:/home/marek/venv-ardupilot/bin:/home/marek/.local/bin:/home/marek/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin
+PATH = /usr/lib/ccache:/home/marek/venv-ardupilot/bin:/home/marek/.local/bin:/home/marek/bin:/usr/lib/ccache:/home/marek/venv-ardupilot/bin:/home/marek/.local/bin:/home/marek/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin:/usr/lib/jvm/java-8-openjdk-amd64/bin
 # default
 MAKEFILES := 
 # automatic
@@ -168,11 +169,11 @@ MAKEFILES :=
 # environment
 SNAP_USER_COMMON = /home/marek/snap/code/common
 # environment
-SNAP = /snap/code/171
+SNAP = /snap/code/176
 # environment
-INVOCATION_ID = a5b31cf5a6f44320adb59148032327cc
+INVOCATION_ID = 3cfec259dcc0462cb4be35052f917912
 # environment
-SNAP_REVISION = 171
+SNAP_REVISION = 176
 # environment
 SNAP_REAL_HOME = /home/marek
 # environment
@@ -184,7 +185,6 @@ DOCKER_HOST = unix:///run/user/1001/podman/podman.sock
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # automatic
- 
 ?F = $(notdir $?)
 # environment
 GTK_IM_MODULE_FILE = /home/marek/snap/code/common/.cache/immodules/immodules.cache
@@ -197,7 +197,7 @@ DESKTOP_SESSION = ubuntu
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
-LOCPATH = /snap/code/171/usr/lib/locale
+LOCPATH = /snap/code/176/usr/lib/locale
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -211,7 +211,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 106480
+SYSTEMD_EXEC_PID = 5425
 # environment
 DISPLAY = :0
 # environment
@@ -221,7 +221,7 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-SNAP_DATA = /var/snap/code/171
+SNAP_DATA = /var/snap/code/176
 # environment
 SNAP_CONTEXT = BpqCQRG1xGLSMhzpWaGZpttkYUahj1t7b70BgDIsOpYS-_H55Rc5
 # makefile (from 'Makefile', line 6)
@@ -231,9 +231,9 @@ MANAGERPID = 3147
 # environment
 DEBUGINFOD_URLS = https://debuginfod.ubuntu.com 
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 163719
+GIO_LAUNCHED_DESKTOP_FILE_PID = 16026
 # environment
-_ = /snap/code/171/usr/share/code/code
+_ = /snap/code/176/usr/share/code/code
 # environment
 XDG_RUNTIME_DIR = /run/user/1001
 # makefile (from 'Makefile', line 5)
@@ -247,11 +247,9 @@ GDK_PIXBUF_MODULE_FILE = /home/marek/snap/code/common/.cache/gdk-pixbuf-loaders.
 # environment
 GIO_MODULE_DIR = /home/marek/snap/code/common/.cache/gio-modules
 # environment
-JOURNAL_STREAM = 9:977290
+JOURNAL_STREAM = 9:40363
 # environment
 XDG_SESSION_CLASS = user
-# environment
-VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 GSM_SKIP_SSH_AGENT_WORKAROUND = true
 # environment
@@ -261,13 +259,13 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1001/vscode-96d796fe-1.94-main.sock
+VSCODE_IPC_HOOK = /run/user/1001/vscode-96d796fe-1.95-main.sock
 # environment
-GTK_EXE_PREFIX = /snap/code/171/usr
+GTK_EXE_PREFIX = /snap/code/176/usr
 # environment
 SNAP_NAME = code
 # environment
-GSETTINGS_SCHEMA_DIR = /home/marek/snap/code/171/.local/share/glib-2.0/schemas
+GSETTINGS_SCHEMA_DIR = /home/marek/snap/code/176/.local/share/glib-2.0/schemas
 # environment
 IM_CONFIG_PHASE = 1
 # default
@@ -275,7 +273,7 @@ IM_CONFIG_PHASE = 1
 # automatic
 <F = $(notdir $<)
 # environment
-SNAP_VERSION = e10f2369
+SNAP_VERSION = f1a4fb10
 # default
 SUFFIXES := 
 # environment
@@ -289,9 +287,11 @@ SNAP_COMMON = /var/snap/code/common
 # environment
 QTWEBENGINE_DICTIONARIES_PATH = /usr/share/hunspell-bdic/
 # environment
-SNAP_USER_DATA = /home/marek/snap/code/171
+SNAP_USER_DATA = /home/marek/snap/code/176
 # environment
 XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 GDMSESSION = ubuntu
 # environment
@@ -351,7 +351,6 @@ check_ctype_wrapper: gauss_solve.py libgauss.so
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 24):
- 
 	$(PYTHON) ./$<
 
 # Not a target:
@@ -390,6 +389,7 @@ all: gauss_solve libgauss.so
 #  Successfully updated.
 
 libgauss.so: gauss_solve.c
+ 
 #  Implicit rule search has not been done.
 #  Last modified 2024-10-02 21:32:30.996173142
 #  File has been updated.
@@ -444,6 +444,6 @@ helpers.o: helpers.h
 # strcache performance: lookups = 63 / hit rate = 52%
 # hash-table stats:
 # Load=30/8192=0%, Rehash=0, Collisions=0/63=0%
-# Finished Make data base on Thu Oct 10 10:56:44 2024
+# Finished Make data base on Thu Dec  5 14:30:35 2024
 
  
